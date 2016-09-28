@@ -47,12 +47,36 @@ V=A.*B
 
 
 %PROBLEM 5
-t=[0;pi/4;pi/2;3*pi/4;5*pi/4]
-r=2
-(x^2)+(y^2)=(r^2)
- x= r*cos(t)
- y= r*sin(t)
- r=sqrt((x^2)+(y^2)^2)
+teta=[0;pi/4;pi/2;3*pi/4;5*pi/4]
+%r=2
+%(x^2)+(y^2)=(r^2)
+ x= r*cos(teta)
+ y= r*sin(teta)
+r=sqrt((x.^2)+(y.^2))
+
+%PROBLEM 6
+%syms k n
+%r=0.5
+%n=50
+%symsum(r^k,k,0,n)
+r=0.5,n=10,result=1;
+for i=1:n
+    result=result+r^i;
+end 
+result
+
+%PROBLEM 7
+for i=1:1:4
+    for j=1:1:4
+        P(i,j)=factorial(i+j-2)/factorial(i-1)*factorial(i+j-2-(i-1))
+    end 
+end 
+
+%PROBLEM 8
+
+
+
+
  
  
 
