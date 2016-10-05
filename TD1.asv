@@ -75,7 +75,7 @@
 %PROBLEM 8
 
 %PROBLEM 14
-
+figure 1
 % c=5;
 % t =0:0.001:10*pi;
 % x=sin(t/(2*c)).*cos(t);
@@ -95,19 +95,30 @@
 % plot3(x,y,z);
 
 %PROBLEM 15
-
+solution 1
 % function ind= findNearest(x,desiredVal);
 %     temp= abs(x-desiredVal);
 %     num= min(min(temp);
 %     ind=find(temp==num);
 % end
 
-
+solution 2
+[k,l]=
+for i= 1*k
     
 
 %PROBLEM 16
-[val1,val2]=quadform (1, 1 , 1)
-  
+function [x1,x2]= quadform (a, b , c);
+    a*(x^2)+ b*x+c=0
+    delta=(b^2)-4*a*c
+    if delta >0
+    x1=(-b + sqrt(delta)./2*a);
+    x2=(-b - sqrt(delta)./2*a);
+    else delta=0
+         x1=x2=(-b /2*a);
+    end
+          
+end 
 
 
 
