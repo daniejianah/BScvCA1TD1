@@ -74,6 +74,14 @@ end
 
 %PROBLEM 8
 
+%PROBLEM 14
+c=5
+
+x=sin(t/2c)*cos(t)
+y=sin(t/2c)*sin (t)
+z= cos(t/2c)
+plot3(x,y,z);
+
 
 
 
