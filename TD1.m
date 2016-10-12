@@ -115,6 +115,11 @@
 % a*(x.^2)+b*x+c=0
 % function [x1,x2]= quadform (a,b,c)
 
+%PROBLEM 20
+I= imread (maisonblanche);
+imshow(I);
+
+
 
 
 
