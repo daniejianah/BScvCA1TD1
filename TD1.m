@@ -106,7 +106,7 @@
     
 
 %PROBLEM 16
-[val1,val2]=quadform (1, 1 , 1)
+% [val1,val2]=quadform (1, 1 , 1)
   
 
 
@@ -116,8 +116,13 @@
 % function [x1,x2]= quadform (a,b,c)
 
 %PROBLEM 20
-I= imread (maisonblanche);
-imshow(I);
+% I= imread (maisonblanche);
+% imshow(I);
+
+
+%Problem 17
+pd = makedist('Triangular');
+
 
 
 
